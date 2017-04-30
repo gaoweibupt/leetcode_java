@@ -14,6 +14,7 @@ hs_err_pid*
 
 # idea project
 leetcode_java.iml
+
 .idea/
 /.idea
 /src/main/resources
