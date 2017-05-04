@@ -3,6 +3,9 @@
  * Desc:Given a string s, find the longest palindromic substring in s. You may assume that the maximum length of s is 1000.
  */
 public class No5LongestPalindromicSubstring {
+    /**
+     * 回文字符串的长度可能为奇数也可能为偶数
+     * */
     public String longestPalindrome(String s) {
         if (s == null || s.length() <= 1)
             return s;

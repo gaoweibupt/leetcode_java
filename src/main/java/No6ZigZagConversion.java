@@ -3,7 +3,13 @@
  * Desc:
  */
 public class No6ZigZagConversion {
-
+    /**
+     * 1        7
+     * 2     6  8
+     * 3  5     9
+     * 4        0
+     * 类似于这种的锯齿状,容易误解
+     * */
     public String convert(String s, int numRows) {
         if (s == null || s.length() == 1 || numRows == 1)
             return s;
